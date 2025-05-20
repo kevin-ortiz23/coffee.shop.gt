@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Café La Cosecha</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 font-sans">
+  <!-- Hero section -->
+  <section class="relative bg-cover bg-center h-screen" style="background-image: url('https://images.unsplash.com/photo-1511920170033-f8396924c348');">
+    <div class="absolute inset-0 bg-black/60 flex flex-col justify-center items-center text-white text-center px-6">
+      <h1 class="text-5xl font-bold mb-4">Café La Cosecha</h1>
+      <p class="text-xl mb-6">Un rincón acogedor en Ciudad de Guatemala</p>
+      <a href="#menu" class="bg-amber-500 hover:bg-amber-600 text-white font-semibold py-2 px-4 rounded-lg">Ver Menú</a>
+    </div>
+  </section>
+
+  <!-- Menú -->
+  <section id="menu" class="py-16 bg-white text-center">
+    <h2 class="text-3xl font-bold mb-8">Nuestro Menú</h2>
+    <div class="flex flex-wrap justify-center gap-8 px-4">
+      <div class="w-60 p-4 shadow-lg rounded-lg">
+        <h3 class="font-semibold text-lg">Capuchino</h3>
+        <p class="text-sm text-gray-600">Q18.00</p>
+      </div>
+      <div class="w-60 p-4 shadow-lg rounded-lg">
+        <h3 class="font-semibold text-lg">Latte</h3>
+        <p class="text-sm text-gray-600">Q20.00</p>
+      </div>
+      <div class="w-60 p-4 shadow-lg rounded-lg">
+        <h3 class="font-semibold text-lg">Pan de Banano</h3>
+        <p class="text-sm text-gray-600">Q15.00</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Información -->
+  <section class="bg-amber-50 py-12 text-center">
+    <h2 class="text-2xl font-bold mb-4">Visítanos</h2>
+    <p class="mb-2">Zona 4, Ciudad de Guatemala</p>
+    <p class="mb-2">Lunes a Sábado: 7:00 AM – 7:00 PM</p>
+    <p>Tel: +502 5555-5555</p>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-white py-4 text-center">
+    <p>Síguenos en 
+      <a href="#" class="text-amber-400 hover:underline">Instagram</a> |
+      <a href="#" class="text-amber-400 hover:underline">Facebook</a>
+    </p>
+    <p class="text-sm mt-2">© 2025 Café La Cosecha</p>
+  </footer>
+</body>
+</html>
